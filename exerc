@@ -1,0 +1,164 @@
+<body>
+    <header>
+        <h1>SouzAutos</h1>
+    </header>
+    <nav>
+        <ul class="list">
+            <li><a href="passeio.html" class="car-passeio">Carros de Passeio</a></li>
+            <li><a href="picape.html" class="car-picape">Picapes</a></li>
+            <li><a href="carroesportivo.html" class="moto">Esportivos</a></li>
+            <li><a href="moto.html" class="car-esportivo">Motos</a></li>
+        </ul>
+    </nav>
+    <section class="section">
+        <div class="image">
+            <div class="car-img-container">
+                <img src="/png/carrodepasseio.png" alt="" class="car-img">
+            </div>
+            <div class="car-img-container">
+                <img src="/png/pickup.png" alt="" class="car-img">
+            </div>
+            <div class="car-img-container">
+                <img src="/png/Porsche-PNG-Image-1.png" alt="" class="car-img">
+            </div>
+            <div class="car-img-container">
+                <img src="/png/moto.png" alt="" class="car-img">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 SouzAutos. Todos os direitos reservados.</p>
+            <ul class="social-icons">
+                <li><a href="#" class="social-icon">Facebook</a></li>
+                <li><a href="#" class="social-icon">Twitter</a></li>
+                <li><a href="#" class="social-icon">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
+-----------------------------------------
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilo do título do cabeçalho */
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilo da navegação */
+nav {
+    background-color: #c50d0d;
+    padding: 10px 0;
+}
+
+/* Estilo da lista de navegação */
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo dos itens da lista de navegação */
+.list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilo dos links de navegação */
+.list li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilo das imagens na seção */
+.section .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Estilo das imagens dos carros */
+.car-img-container {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f7f7;
+    border: black solid 3px;
+}
+
+.car-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto; /* Empurra o rodapé para o final da página */
+}
+
+/* Estilo do conteúdo do rodapé */
+.footer-content {
+    text-align: center;
+}
+
+/* Estilo do texto de direitos autorais */
+.footer-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos ícones sociais */
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo de cada ícone social */
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Estilo dos links dos ícones sociais */
+.social-icons li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Estilo dos links dos ícones sociais ao passar o mouse */
+.social-icons li a:hover {
+    text-decoration: underline;
+}
